@@ -1,0 +1,22 @@
+.lista-eventos{
+    list-style: none;
+    padding: 0;
+}
+
+.lista-eventos__item{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 50px;
+}
+
+.lista-eventos__item a{
+    text-decoration: none;
+}
+
+.lista-eventos__titulo{
+       color: black; 
+       font-size: 18px;
+       margin-left: 15px;
+       border-left: 1px solid black;
+       padding-left: 10px;
+}

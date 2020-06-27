@@ -1,0 +1,17 @@
+.container{
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media(min-width: $breakpoint-small){
+        width: 540px;
+    }
+    @media(min-width: $breakpoint-medium){
+        width: 720px;
+    }
+    @media(min-width: $breakpoint-large){
+        width: 960px;
+    }
+    @media(min-width: $breakpoint-x-large){
+        width: 1140px;
+    }
+}

@@ -1,0 +1,61 @@
+.rodape{
+    color: rgb(236, 234, 78);
+    text-shadow: 1px 1px 1px #000;
+    &__linha_1{
+        background-image: url("../img/img/imagem_fundo_mamute.jpg");
+        background-size: cover;
+        background-color: white;    
+        padding: 15px;
+        overflow: auto;
+    }
+    
+    &__linha_2{
+        background-color: black;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    &__titulo{
+        border-bottom: 1px solid yellow;
+        padding: 0 10px 10px 10px;
+        font-size: 20px;
+    }
+    
+    &__lista-links{
+        padding: 0;
+        list-style: none;
+    }
+    
+    &__lista-links__item{
+        color: yellow;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    
+    &__lista-links__item::before{
+        content: '→';
+        margin-right: 10px;
+        color: yellow;
+    }
+    
+    &__coluna{
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    
+    & .logo{
+        margin-bottom: 20px;
+    }
+    @media(min-width: $breakpoint-medium){
+        &__coluna{
+            float: left;
+            width: 33.333%;
+            padding: 0 15px;
+        }
+    }
+    @media(min-width: $breakpoint-medium){
+        &__linha_1{
+            background-image: url("../img/img/imagem_fundo_mamute.jpg");
+        }
+    }
+}

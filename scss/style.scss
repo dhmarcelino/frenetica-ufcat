@@ -1,0 +1,35 @@
+// Abstracts
+@import 'abstracts/cores';
+@import 'abstracts/breakpoints.scss';
+
+// Base
+@import 'base/normalize';
+@import 'base/fontes';
+@import 'base/meu-reset';
+
+//Layouts
+@import 'layout/alinhamento-texto';
+@import 'layout/alinhamento-img';
+@import 'layout/container';
+@import 'layout/cabecalho';
+@import 'layout/rodape';
+
+// Componentes
+@import 'components/depoimentos';
+@import 'components/formulario';
+@import 'components/logo';
+@import 'components/mapa';
+@import 'components/menu-principal';
+@import 'components/pagina-cabecalho';
+@import 'components/pagina-conteudo';
+@import 'components/servicos';
+
+// Páginas
+@import 'pages/contato';
+@import 'pages/eventos';
+@import 'pages/index';
+@import 'pages/sobre';
+
+// Vendors
+@import 'vendors/_slick';
+@import 'vendors/_slick-theme';
